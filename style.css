@@ -1,0 +1,23 @@
+#screen {
+  border: 1px solid black;
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  display: none;
+}
+
+/*link for beta game in about button*/
+#beta-link {
+  position: absolute;
+  display: none;
+  left: 464px;
+  top: 605px;
+  font-size: 25px;
+  font-family: Arial;
+  color: white;
+  text-decoration: none;
+  user-select: none;
+}
